@@ -6,6 +6,7 @@ let btns=["pink","seagreen","orange","blue"];
 let started = false;
 let level=0;
 
+
 let par = document.querySelector("p");
 document.addEventListener("keypress",function(){
     if(started == false)
@@ -85,3 +86,5 @@ function reset(){
     userseq=[];
     level = 0;
 }
+
+
